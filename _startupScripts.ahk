@@ -15,7 +15,7 @@ Email Hotkeys
 
 IfWinActive, ahk_class rctrl_renwnd32
 {
-	::eml.kw::Kristina,{enter 2}
+	::eml.kw::k,{enter 2}
 	::eml.qq::Let me know if you have any questions. Thank you.
 }
 
@@ -44,14 +44,12 @@ General Hotkeys
 */
 
 #IFWinActive
-::rbz.na::Robert B. Zumwalt
-::rbz.nu::Robert B. Zumwalt - {#} 247080
-::ksc.na::Kahn, Soares & Conway, LLP
-::ksc.af1::Kahn, Soares & Conway, LLP{enter}219 N. Douty St.{enter}Hanford, CA 93230
-::ksc.af2::219 N. Douty St.{enter}Hanford, CA 93230
-::ksc.af3::219 N. Douty St.{enter}Hanford, California 93230
-::ksc.af4::219 N. Douty St., Hanford, California 93230
-::ksc.af5::219 N. Douty St., Hanford, CA 93230
+::rbz.na::rbz
+::rbz.nu::rbz - {#} nnnnnn
+::ksc.na::ksc
+::ksc.af1::kscaddress1
+::ksc.af2::address2
+::ksc.af3::address3
 
 /*========================
 Letter Hotkeys
@@ -67,19 +65,6 @@ Letter Hotkeys
 PDF Hotkeys
 */
 
-::pdf.h4p2::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St.{tab}Hanford, CA 93230{tab}(559) 584-3337{tab}(559) 584-3348
-::pdf.h5p2::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St.{tab}Hanford, CA 93230{tab 2}(559) 584-3337{tab}(559) 584-3348
-::pdf.h3p2::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230{tab}(559) 584-3337{tab}(559) 584-3348
-::pdf.h2p2::Robert B. Zumwalt - {#}247080`; Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230{tab}(559) 584-3337{tab}(559) 584-3348
-::pdf.h4p1::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St.{tab}Hanford, CA 93230{tab}(559) 584-3337
-::pdf.h3p1::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230{tab}(559) 584-3337
-::pdf.h2p1::Robert B. Zumwalt - {#}247080`; Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230{tab}(559) 584-3337
-::pdf.h4p0::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St.{tab}Hanford, CA 93230
-::pdf.h3p0::Robert B. Zumwalt - {#}247080{tab}Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230
-::pdf.h2p0::Robert B. Zumwalt - {#}247080`; Kahn, Soares & Conway, LLP{tab}219 N. Douty St., Hanford, CA 93230
-::pdf.p2::(559) 584-3337{tab}(559) 584-3348
-::pdf.p1::(559) 584-3337
-::pdf.f1::(559) 584-3348
 
 
 ;Gosub, putDate
